@@ -1,12 +1,10 @@
 streamlit==1.51.0
 pandas==2.3.3
-matplotlib==3.10.7
+matplotlib==3.10.0
 plotly==6.4.0
 wordcloud==1.9.4
 
-# NLP & Keyword Extraction
-spacy==3.7.5
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+# NLP & Keyword Extraction (spaCy removed)
 keybert==0.9.0
 rake-nltk==1.0.6
 nltk==3.9.1
@@ -18,5 +16,5 @@ python-dotenv==1.0.1
 # Utilities
 requests==2.32.3
 beautifulsoup4==4.12.3
-scikit-learn==1.7.2
+scikit-learn==1.5.2
 tqdm==4.67.1
