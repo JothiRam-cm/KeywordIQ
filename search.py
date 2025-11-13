@@ -1,4 +1,4 @@
-from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
 
 # 🔑 Replace with your actual API key
 api_key = "4a917b1bc35f18cb4322a45a3bac68a6d8428816232b58bb0f0b6b1f9c911905"
