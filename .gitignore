@@ -1,0 +1,81 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+kwi/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Cache and temporary files
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Data files (optional - uncomment if needed)
+# *.csv
+# *.xlsx
+# uploads/
+# results/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Node modules (if using any frontend tools)
+node_modules/
